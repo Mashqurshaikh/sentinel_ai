@@ -1,0 +1,25 @@
+{
+  "agent": "Threat Intelligence Agent",
+  "generated_at": "2026-09-19T07:34:06.473686",
+  "total_requests": 23,
+  "risk_level_breakdown": {
+    "low": 19,
+    "high": 4
+  },
+  "action_breakdown": {
+    "ALLOW": 19,
+    "BLOCK": 4
+  },
+  "threat_type_frequency": {
+    "SOURCE_CODE": 2,
+    "PII": 1,
+    "PROMPT_INJECTION": 1
+  },
+  "top_users_by_blocked_requests": {
+    "user2": 3,
+    "admin": 1
+  },
+  "alerts": [
+    "ALERT: user 'user2' has 3 blocked high-risk prompts -- recommend manual review."
+  ]
+}
